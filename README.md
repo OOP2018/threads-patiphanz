@@ -17,7 +17,7 @@ The threads use the counter to add and subtract values.
 
 | Counter class           | Limit              | Runtime (sec)   |
 |:------------------------|:-------------------|-----------------|
-| Unsynchronized counter  |                    |                 |
+| Unsynchronized counter  |                1000|        0.0008244|
 | Using ReentrantLock     |                    |                 |
 | Syncronized method      |                    |                 |
 | AtomicLong for total    |                    |                 |
