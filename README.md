@@ -25,6 +25,9 @@ The threads use the counter to add and subtract values.
 ## 1. Using unsynchronized counter object
 
 answer the questions (1.1 - 1.3)
+1.1 I ran it 5 times. Total should be zero but it isn't and total always didn't be the same.
+1.2 First runtime 0.018481 sec, Second runtime 0.018378 sec, Third runtime 0.016173 sec, Average runtime 0.017677 sec.
+1.3 Total doesn't be the same because the substractTask can be run anytime even through addTask doesn't finished. so sometimes like the counter in addTask is 5 but in substractTask may be 6, so total is not equal to zero.
 
 ## 2. Implications for Multi-threaded Applications
 
