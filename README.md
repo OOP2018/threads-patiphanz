@@ -42,7 +42,7 @@ It could affect to user like when user1 and user2 withdraws 20 Baht at the same 
 
 3.2 Because it will run just one thread and wait until finish to do other thread.
 
-3.3 ReentrantLock will lock the process to complete first and then unlock to do other thread. We will use it when 
+3.3 ReentrantLock will lock the process to complete first and then unlock to do other thread. We will use it when we use a share resource.
 
 3.4 We write it to unlock the thread after it finish and then do other thread.
 
